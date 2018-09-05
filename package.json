@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/freewind/take-out-food#readme",
   "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "jasmine": "^2.4.1",
     "jasmine-console-reporter": "^1.2.6"
   }
