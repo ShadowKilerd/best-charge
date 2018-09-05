@@ -1,0 +1,50 @@
+
+# 1
+["ITEM0001 x 1", "ITEM0013 x 2", "ITEM0022 x 1"]
+
+# 2
+[
+    {
+        itemId: string
+        quantity: number
+    }
+]
+
+# 3
+{
+    items: [
+        {
+            itemId: string
+            quantity: number
+        }
+    ]
+}
+
+# 4
+{
+    items: [
+        {
+            itemId: string
+            quantity: number
+        }
+    ],
+    total: number
+}
+
+# 5
+
+{
+    items: [
+        {
+            itemId: string
+            quantity: number
+        }
+    ],
+    total: number,
+    promotions: {
+        type: {
+            discount: number
+            text: string
+        }
+    }
+}
